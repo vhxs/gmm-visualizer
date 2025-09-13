@@ -1,0 +1,19 @@
+[project]
+name = "gmm-visualizer"
+version = "0.1.0"
+description = "Streamlit app for visualizing the PDF of a 2D Gaussian Mixture Model"
+authors = [
+  { name = "Vikram Saraph" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "streamlit>=1.38",
+  "numpy>=1.26",
+  "matplotlib>=3.9",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.15,<0.9.0"]
+build-backend = "uv_build"
